@@ -1,5 +1,7 @@
-# pstreecim
+# pstreecim.ps1
 
-Prints a flat process tree in powershell.
+Powershell script to print a flat process tree.
 
-When able, it will determine the identity of parent processes, but if the parent has already exited it will show only the ppid and list it as \<Unknown\>
+I.e., prints a list of all running processes, grouped by their parent process IDs.
+
+When able, the script will determine the identity of the parent process, but if the parent has already exited it will show only the id and list it as \<Unknown\>
