@@ -1,5 +1,9 @@
 
-# powershell -ExecutionPolicy Bypass -File .\pstreesim.ps1
+# pstreesim.ps1
+# Copyright (c) 2024, userhwon
+
+# handy tip, if you can't run scripts by default:
+#   powershell -ExecutionPolicy Bypass -File .\pstreesim.ps1
 
 $allProcesses = Get-CimInstance -ClassName Win32_Process
 
